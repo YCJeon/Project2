@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php" method="post">
+    이름 : <input type="text" id="fname" name="fname" ><br>
+    비번 : <input type="text" id="lname" name="lname"><br>
+    성별 : <input type="radio" name="gender"value="2"> 여자 <input type="radio" name = "gender" value="1"> 남자
+
+    <fieldset>
+        <legend>Select Your Preferred Language:</legend>
+        <input type="radio" id="language1" name="language" value="Korea">
+        <label for="language1">한국어</label><br>
+
+        <input type="radio" id="language2" name="language" value="English">
+        <label for="language2">English</label><br>
+
+        <input type="radio" id="language3" name="language" value="French">
+        <label for="language3">French</label><br>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+</form>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

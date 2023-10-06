@@ -9,14 +9,12 @@
         function checkValue(){
             var userid = document.form1.userid.value;
             var pwd = document.form1.pwd.value;
-            if(userid.value==''){
+            if(userid==''){
                 alert("이름 입력하세요!");
-                focus();
                 return;
             }
-            if(pwd.value=""){
+            if(pwd=""){
                 alert("비밀번호를 입력하세요!");
-                focus();
                 return;
             }
             document.form1.submit();
